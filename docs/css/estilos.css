@@ -1,4 +1,101 @@
-body {
-    background-color: beige;
-    font-weight: 100;
+
+.header {
+    background-color: rgb(80, 100, 160);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion {
+    float: right;
+    justify-content: end;
+}
+
+#contenedorPerror {
+    width: auto;
+    height: auto;
+    background-color: rgb(80, 100,160);
+
+}
+
+
+.abajo_del_perro {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contenido {
+    display: flex;
+    background-color: rgb(80, 100, 160);
+    color: white;
+    width: 100%;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.principal {
+    background-color: rgb(80, 100, 160);
+}
+
+.fono {
+    width: 100%;
+}
+
+.rescate {
+    width: 100%;
+    text-align: center;
+}
+
+.redes {
+    width: 100%;
+    text-align: right;
+}
+
+.redes ul li {
+    background-color: rgb(80, 100, 160);
+    border-radius: 70%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.redes img {
+    height: 30px;
+    color: #000;
+}
+
+.lateral_1, .lateral_2 {
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    background-color: rgb(80, 100, 160);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.lateral_1 {
+    text-align: right;
+    width: 50%
+}
+
+.lateral_2 img {
+    width: 50%;
+}
+
+.contenedor-inferior {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(80, 100, 160);
+}
+
+@media screen and (max-width:720px) {
+    .header {
+        flex-direction: column;
+    }
+    .footer {
+        display: none;
+    }
 }
